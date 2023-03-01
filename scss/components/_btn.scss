@@ -1,0 +1,49 @@
+.btn{
+    background-color: $clr-primary;
+    padding: .8rem 1.8rem;
+    border-radius: 3rem;
+    border: 1px solid;
+    display: inline-block;
+    transition: .5s ease-in-out;
+    &-primary{
+        background: $clr-primary;
+        color: $clr-light;
+        border-color: $clr-primary;
+        &:hover{
+            background: darken($clr-primary, 10);
+           transform: scale(1.1);
+          
+            
+            
+        }
+    }
+
+    &-dark{
+        background: $clr-dark;
+        color: $clr-light;
+        border-color: $clr-dark;
+        &:hover{
+            background: darken($clr-dark, 10);
+           transform: scale(1.1);
+          
+            
+            
+        }
+    }
+    
+    &-outline{
+        background-color: transparent;
+        color: $clr-primary;
+        border-color: $clr-primary;
+        &:hover{
+           
+           background-color: $clr-primary;
+           transform: scale(1.1);
+           
+       
+        
+        }
+       
+    }
+}
+
